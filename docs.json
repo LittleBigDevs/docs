@@ -1,9 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "almond",
-  "icons": {
-    "library": "lucide"
-  },
   "name": "LittleBigDevs",
   "colors": {
     "primary": "#658a95",
