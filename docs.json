@@ -11,10 +11,6 @@
     "dark": "#658a95"
   },
   "favicon": "/logo/logo.png",
-  "appearance": {
-    "default": "system",
-    "strict": false
-  },
   "navigation": {
     "tabs": [
       {
@@ -27,7 +23,15 @@
         "tab": "koroneStrap",
         "pages": [
           "koroneStrap/getting-started",
-          "koroneStrap/troubleshooting"
+          "koroneStrap/troubleshooting",
+          {
+            "group": "FastFlags",
+            "icon": "flag",
+            "pages": [
+              "koroneStrap/fastflags/introduction",
+              "koroneStrap/fastflags/finding-fastflags"
+            ]
+          }
         ]
       }
       ]
