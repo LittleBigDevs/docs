@@ -1,0 +1,123 @@
+#sidebar::-webkit-scrollbar {
+    display: none;
+}
+
+#sidebar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+#sidebar-content::-webkit-scrollbar {
+    display: none;
+}
+
+#sidebar-content {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+#sidebar-content {
+    overflow: hidden;
+}
+
+#navigation-items {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    overflow-y: auto;
+    padding-right: 0.5rem;
+}
+
+#navigation-items::-webkit-scrollbar {
+    display: none;
+}
+
+:root {
+    --greed-primary: #B3A4C8;
+    --greed-secondary: #766A87;
+    --greed-dark: #221F27;
+    --greed-light: #A08EB3;
+    --greed-dim: #2D2733;
+    --greed-border: #504759;
+}
+
+#content {
+    color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--greed-primary);
+}
+
+h1, h2 {
+    background: linear-gradient(to right, #fff, var(--greed-primary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+@media (min-width: 1024px) {
+    .lg\:pl-12 {
+        padding-left: 0 !important;
+    }
+}
+
+.lg\:pl-12.flex.gap-x-12.justify-center.mx-auto.w-full {
+    gap: 0 !important;
+    justify-content: flex-start !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+@media (min-width: 1280px) {
+    #content-side-layout {
+        position: sticky !important;
+        top: 0 !important;
+        align-self: flex-start !important;
+    }
+
+    #table-of-contents-layout {
+        position: sticky !important;
+        top: 0 !important;
+    }
+}
+
+#footer {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+}
+
+@media (min-width: 768px) {
+    #content-area {
+        max-width: 48rem !important;
+    }
+}
+
+@media (min-width: 1024px) {
+    #content-area {
+        max-width: 56rem !important;
+    }
+}
+
+@media (min-width: 1280px) {
+    #content-area {
+        max-width: 64rem !important;
+    }
+}
+
+@media (min-width: 1536px) {
+    .\32xl\:max-w-2xl {
+        max-width: 64rem !important;
+    }
+
+    #content-area {
+        max-width: 72rem !important;
+    }
+}
+
+#content-area::-webkit-scrollbar {
+    display: none;
+}
+#content-area {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
